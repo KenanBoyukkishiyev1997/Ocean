@@ -1,0 +1,178 @@
+  /*Spesile*/
+
+  *{
+  	margin: 0px;
+  	padding: 0px;
+  	box-sizing: border-box;
+  	text-decoration: none;
+  }
+
+  body{
+  	background-image: url("../Img/pacific-size.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+
+  .contanier{
+  	width: 80%;
+  	margin: auto;
+  }
+  .left{
+  	float: left;
+  }
+
+  .right{
+  	float: right;
+  }
+  .clear{
+  	clear: both;
+  }
+
+  /*Spesile*/
+
+
+  header{
+  	background-color: #fff;
+  	height: 100px;
+  	position: relative;
+  }
+
+
+  .demo{
+  	margin-top: 30px;
+  }
+  .demo a span{
+  	color: #8c979e;
+  	font-size: 30px;
+  	margin-top: 20px;
+  }
+
+  .nav {
+  	padding-left: 10px;
+  }
+  .nav ul li{
+  	display: inline-block;
+  	list-style-type: none;
+  	padding: 10px;
+  }
+
+  .nav ul li a{
+  	color:#4c4c4c;
+  	transition: all 0.3s  ease-in-out;
+  }
+
+  .nav ul li a:hover{
+  	color:#5234f9;
+  	transition: all 0.3s  ease-in-out;
+  }
+  .nav ul li a:hover i{
+  	color:#5234f9;
+  	transition: all 0.3s  ease-in-out;
+  }
+  .nav ul li a  i{
+  	font-size: 10px;
+  }
+
+  .nav ul li a.active{
+  	color:#5234f9;
+  }
+  .nav .dropdown{
+  	display: none;
+  }
+  .nav ul.dropdown li{
+  	position: relative;
+  	display: block;
+  }
+
+  .nav > ul > li:hover ul{
+  	display: block;
+  	position: absolute;
+  	border: 2px solid black;
+  	background: #fff;
+  	color: grey;
+  	opacity: 0.9;
+  	width: 200px;
+  }
+
+
+  .nav .dropdown .inner{
+  	display: none;
+  }
+
+  .dropdown .innerhover:hover .inner{
+  	display: block;
+  	position: absolute;
+  	left: 200px;
+  	top:0;
+  	border: 2px solid black;
+  	background: #fff;
+  	color: grey;
+  	width: 100px;
+  }
+
+
+
+  section{
+  	position: relative;
+  }
+  .text{
+  	color: #fff;
+  	text-align: center;
+  	margin-top: 20%;
+  	margin-bottom: 5px;
+  }
+
+  .text h1{
+  	font-size: 60px;
+  	margin: 5px;
+  	
+  }
+  .text p{
+  	
+  	margin: 5px;
+  }
+
+
+  .btn button.download{
+  	color: #fff;
+  	height: 50px;
+  	width: 150px;
+  	background-color: transparent;
+  	outline: none;
+  	border: 2px solid #fff;
+  	transition: all 0.5s ease-in-out;
+  }
+
+  .btn button.download:hover{
+  	color: #000;
+  	background-color: #fff;
+  	outline: none;
+  	border: 2px solid #fff;
+  	transition: all 0.5s ease-in-out;
+  	cursor: pointer;
+  }
+
+
+  .btn{
+  	margin-top: 10px;
+  } 
+  .btn button.read{
+  	color: #fff;
+  	height: 50px;
+  	width: 150px;
+  	background-color: #745cf9;
+  	outline: none;
+  	border: 2px solid #745cf9;
+  	transition: all 0.5s ease-in-out;
+  }
+
+
+  .btn button.read:hover{
+  	color: #fff;
+  	background-color: #745cf9;
+  	opacity: 0.9;
+  	outline: none;
+  	border: 2px solid #745cf9;
+  	transition: all 0.5s ease-in-out;
+  	cursor: pointer;
+  }
